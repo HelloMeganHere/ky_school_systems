@@ -1,0 +1,57 @@
+## School Year,## School Year,,,,,,,,,,,,,
+- School Year rename,School Year rename,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+## School,## School,,,Enrollment,,,,Absenteeism,,,,Dropout Rate,,
+- School Number,School Number,school_number,,School Year,school_year,"'School Year': 'school_year',",,School Year,school_year,"'School Year': 'school_year',",,School Year,school_year,"'School Year': 'school_year',"
+- School Name,School Name,school_name,,County Number,county_number,"'County Number': 'county_number',",,County Number,county_number,"'County Number': 'county_number',",,County Number,county_number,"'County Number': 'county_number',"
+- School Code,School Code,school_code,,County Name,county_name,"'County Name': 'county_name',",,County Name,county_name,"'County Name': 'county_name',",,County Name,county_name,"'County Name': 'county_name',"
+- State School Id,State School Id,state_school_id,,District Number,district_number,"'District Number': 'district_number',",,District Number,district_number,"'District Number': 'district_number',",,District Number,district_number,"'District Number': 'district_number',"
+- NCES ID,NCES ID,nces_id,,District Name,district_name,"'District Name': 'district_name',",,District Name,district_name,"'District Name': 'district_name',",,District Name,district_name,"'District Name': 'district_name',"
+- CO-OP,CO-OP,co_op,,School Number,school_number,"'School Number': 'school_number',",,School Number,school_number,"'School Number': 'school_number',",,School Number,school_number,"'School Number': 'school_number',"
+- CO-OP Code,CO-OP Code,co_op_code,,School Name,school_name,"'School Name': 'school_name',",,School Name,school_name,"'School Name': 'school_name',",,School Name,school_name,"'School Name': 'school_name',"
+- School Type,School Type,school_type,,School Code,school_code,"'School Code': 'school_code',",,School Code,school_code,"'School Code': 'school_code',",,School Code,school_code,"'School Code': 'school_code',"
+,,,,State School Id,state_school_id,"'State School Id': 'state_school_id',",,State School Id,state_school_id,"'State School Id': 'state_school_id',",,State School Id,state_school_id,"'State School Id': 'state_school_id',"
+## County,## County,,,NCES ID,nces_id,"'NCES ID': 'nces_id',",,NCES ID,nces_id,"'NCES ID': 'nces_id',",,NCES ID,nces_id,"'NCES ID': 'nces_id',"
+- County Number,County Number,county_number,,CO-OP,co_op,"'CO-OP': 'co_op',",,CO-OP,co_op,"'CO-OP': 'co_op',",,CO-OP,co_op,"'CO-OP': 'co_op',"
+- County Name,County Name,county_name,,CO-OP Code,co_op_code,"'CO-OP Code': 'co_op_code',",,CO-OP Code,co_op_code,"'CO-OP Code': 'co_op_code',",,CO-OP Code,co_op_code,"'CO-OP Code': 'co_op_code',"
+,,,,School Type,school_type,"'School Type': 'school_type',",,School Type,school_type,"'School Type': 'school_type',",,School Type,school_type,"'School Type': 'school_type',"
+## District,## District,,,Demographic,demographic,"'Demographic': 'demographic',",,Grade,grade,"'Grade': 'grade',",,Demographic,demographic,"'Demographic': 'demographic',"
+- District Number,District Number,district_number,,All Grades,all_grades,"'All Grades': 'all_grades',",,Demographic,demographic,"'Demographic': 'demographic',",,Suppressed,suppressed,"'Suppressed': 'suppressed',"
+- District Name,District Name,district_name,,Preschool,grade_preschool,"'Preschool': 'grade_preschool',",,Suppressed,suppressed,"'Suppressed': 'suppressed',",,Dropout Rate,dropout_rate,"'Dropout Rate': 'dropout_rate',"
+,,,,K,grade_k,"'K': 'grade_k',",,Chronically Absent Students,chronically_absent_students,"'Chronically Absent Students': 'chronically_absent_students',",,,,
+## Demographic,## Demographic,demographic,,Grade 1,grade_1,"'Grade 1': 'grade_1',",,Students Enrolled 10 or More Days,students_enrolled_10_or_more_days,"'Students Enrolled 10 or More Days': 'students_enrolled_10_or_more_days',",,,,
+- Demographic,Demographic,demographic,,Grade 2,grade_2,"'Grade 2': 'grade_2',",,Chronic Absenteeism Rate,chronic_absenteeism_rate,"'Chronic Absenteeism Rate': 'chronic_absenteeism_rate',",,,,
+,,,,Grade 3,grade_3,"'Grade 3': 'grade_3',",,,,,,,,
+## Grade,## Grade,,,Grade 4,grade_4,"'Grade 4': 'grade_4',",,,,,,,,
+- All Grades,All Grades,all_grades,,Grade 5,grade_5,"'Grade 5': 'grade_5',",,,,,,,,
+- Grade,Grade,grade,,Grade 6,grade_6,"'Grade 6': 'grade_6',",,,,,,,,
+,,,,Grade 7,grade_7,"'Grade 7': 'grade_7',",,,,,,,,
+,,,,Grade 8,grade_8,"'Grade 8': 'grade_8',",,,,,,,,
+## Enrollment,## Enrollment,,,Grade 9,grade_9,"'Grade 9': 'grade_9',",,,,,,,,
+- Preschool,Preschool,grade_preschool,,Grade 10,grade_10,"'Grade 10': 'grade_10',",,,,,,,,
+- K,K,grade_k,,Grade 11,grade_11,"'Grade 11': 'grade_11',",,,,,,,,
+- Grade 1,Grade 1,grade_1,,Grade 12,grade_12,"'Grade 12': 'grade_12',",,,,,,,,
+- Grade 2,Grade 2,grade_2,,Grade 14,grade_14,"'Grade 14': 'grade_14',",,,,,,,,
+- Grade 3,Grade 3,grade_3,,,,,,,,,,,,
+- Grade 4,Grade 4,grade_4,,,,,,,,,,,,
+- Grade 5,Grade 5,grade_5,,,,,,,,,,,,
+- Grade 6,Grade 6,grade_6,,,,,,,,,,,,
+- Grade 7,Grade 7,grade_7,,,,,,,,,,,,
+- Grade 8,Grade 8,grade_8,,,,,,,,,,,,
+- Grade 9,Grade 9,grade_9,,,,,,,,,,,,
+- Grade 10,Grade 10,grade_10,,,,,,,,,,,,
+- Grade 11,Grade 11,grade_11,,,,,,,,,,,,
+- Grade 12,Grade 12,grade_12,,,,,,,,,,,,
+- Grade 14,Grade 14,grade_14,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+## Absenteeism,## Absenteeism,,,,,,,,,,,,,
+- Chronically Absent Students,Chronically Absent Students,chronically_absent_students,,,,,,,,,,,,
+- Students Enrolled 10 or More Days,Students Enrolled 10 or More Days,students_enrolled_10_or_more_days,,,,,,,,,,,,
+- Chronic Absenteeism Rate,Chronic Absenteeism Rate,chronic_absenteeism_rate,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+## Dropout,## Dropout,,,,,,,,,,,,,
+- Dropout Rate,Dropout Rate,dropout_rate,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+## Reporting,## Reporting,,,,,,,,,,,,,
+- Suppressed,Suppressed,suppressed,,,,,,,,,,,,
