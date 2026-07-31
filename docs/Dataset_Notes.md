@@ -8,7 +8,7 @@ The datasets will be cleaned, transformed, stored to SQL and queried, and visual
 ### Datasets Used: 
 - Kentucky Student Enrollment
 - Kentucky Chronic Absenteeism 
-- Kentucky Drop Out Rate
+- Kentucky Dropout Rate
 - Kentucky County for state regions
 
 The school datasets are mostly clean with several commonalities between the datasets, as they are all from the same source.   
@@ -90,11 +90,13 @@ Outside of the main columns listed above, there are two column listed:
 - Demographic
 
 
+## AI Assistance
+
+ChatGPT was used to support learning by explaining concepts, answering technical questions, providing feedback on code organization and time management, and helping troubleshoot errors.  All project decisions, testing, and validation were completed by the author.
 
 ## Citation:
 2023-2024 & 2024-2025:
 - https://reportcard.kyschools.us/data-download?pid=c340f7d5-efbd-5fb8-cab8-3a128835f84c
-
 
 KY flag color scheme used for charts:
 - https://www.flagcolorcodes.com/kentucky
@@ -108,3 +110,4 @@ Grade 14:
 Data Suppression:
 - https://www.education.ky.gov/school/csip/Documents/Suppressed%20Data%20Guidance.pdf
 - https://www.education.ky.gov/AA/distsupp/Documents/Understanding_Kentucky_Minimum_N_School_Accountability.pdf
+
