@@ -1,5 +1,7 @@
 # Kentucky School System                       
-                       
+
+Main review: [Review/final_ky_school_system_2023_2025.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/final_ky_school_system_2023_2025.ipynb)
+
 ## Project Goal
 Investigate Kentucky public school education data to explore the relationship between student enrollment, chronic absenteeism, and dropout rate.
 
