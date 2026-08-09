@@ -1,6 +1,43 @@
-# Kentucky School System                       
+# Kentucky School System
 
-Main review: [Review/final_ky_school_system_2023_2025.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/final_ky_school_system_2023_2025.ipynb)
+**Main Review:** [Review/final_ky_school_system_2023_2025.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/final_ky_school_system_2023_2025.ipynb)
+
+**Functions:** [Review/ky_school_functions.py](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/ky_school_functions.py)
+
+## Setup Instructions
+
+### Clone the repository
+
+bash:
+
+git clone https://github.com/HelloMeganHere/ky_school_systems.git
+cd ky_school_systems
+
+
+### Create and activate a virtual environment
+
+#### Windows PowerShell
+
+powershell:
+
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+#### Mac / Linux
+
+bash:
+
+python3 -m venv venv
+source venv/bin/activate
+
+
+### Install required packages
+
+bash:
+
+pip install -r requirements.txt
+
 
 ## Project Goal
 Investigate Kentucky public school education data to explore the relationship between student enrollment, chronic absenteeism, and dropout rate.
