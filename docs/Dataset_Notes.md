@@ -5,6 +5,17 @@ Investigate Kentucky public school education data to explore the relationship be
 
 The datasets will be cleaned, transformed, stored to SQL and queried, and visualized using Python.
 
+## Tools & Technologies
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- SQLite
+- SQL
+- Jupyter Notebook
+- VS Code
+
 ### Datasets Used: 
 - Kentucky Student Enrollment
 - Kentucky Chronic Absenteeism 
@@ -15,10 +26,10 @@ The school datasets are mostly clean with several commonalities between the data
 Each school dataset includes:
 School Year, County Number, County Name, District Number, District Name, School Number, School Name, School Code, State School Id, NCES ID, CO-OP, CO-OP Code, School Type, and Demographic
 
-After these headers, is where the data varies depending on what I'm looking at. Enrollmenet data has additional columns for enrollment, Absenteeism for Absenteeism and Dropout rate for Dropout rate.
+After these headers, is where the data varies depending on what I'm looking at. Enrollment data has additional columns for enrollment, Absenteeism for Absenteeism and Dropout rate for Dropout rate.
 
 ## Key Findings across all three school datasets:
-School year represents the start of fall through end of spring
+School year represents two halves of a year starting around August (mid-summer) and ending in May (mid-spring)
 
 County Name only has one county number, but each county can have more than one District number in it.
 
@@ -29,8 +40,9 @@ School Number can represent more than one school
 Each school has several lines and these are broken up into grade, with subgroups by demographic. 
 
 Each School has a unique school ID
-Regardless of the grade, they all have PS though 14th grade (Maybe older students coming back?..Need to research this one..)
--    For the grades not listed, there are *. I believe these would represent NaNs
+
+Grade levels range from Preschool through Grade 14, with Grade 14 reserved for qualifying special education students as defined by Kentucky Department of Education (KDE). See note below for additional context
+-    For the grades not listed, there are asterisk (*). I believe these would represent NaNs
 -    Per education.ky.gov:
 -       Grade 14 “may only be selected for Special Education students participating in Alternate
         Assessment, as determined by the student’s Admissions and Release Committee (ARC)
@@ -89,10 +101,34 @@ Outside of the main columns listed above, there are two column listed:
 - School Code
 - Demographic
 
+## Key findings
+Jefferson county had the highest student enrollment in the state of Kentucky at 110,061. Fayette had the second highest at 46,677. Jefferson county had more than double the student enrollment than Fayette County.
+
+For the past two years, there have been more males enrolled than females in the school systems.
+
+Knott County had the  highest Chronic Absenteeism and highest dropout rate in the Kentucky Public School system in 2024 - 2025.
+
+Although Jefferson County has a higher student enrollment population and higher number of students who dropout, it is still ranked second for the highest dropout rate.
+
+For school year 2024-2025, although Jefferson County has the highest enrollment, they do not rank in the top 20 for highest chronic absenteeism, but they do rank second for highest dropout rate.
+
+Knott county is does not rank in the top 20 highest enrollment rank, but has both the highest chronic absenteeism rate and highest dropout rate in the state of Kentucky. The chart above shows the highest dropout rate with enrollment listed.
+
+The overall average Dropout rate reduced between school year 2023-2024 to 2024-2025
+
+The overall average Chronic Absenteeism rate reduced between school year 2023-2024 to 2024-2025
+
+### Primary Answer:
+There is moderate correlation between chronic absenteeism rates and dropout rates in both school years. The relationship was stronger in 2023–2024 with a rate of 39.4% than in 2024–2025  30.4%, suggesting that schools with higher chronic absenteeism generally also experienced higher dropout rates.
+
+## What I've learned!
+It's important to keep my Markdown language area organized and clean. It can be easy for me to get lost in the lack of organization with these notebooks.
+
+## Known issues
+Just because counts may be higher for one group over another doesn't necessarily mean this is an accurate depiction of what the data is telling us. Some counties will have higher enrollment data than others. Jefferson County is a great example of this. It's a heavily populated county and this can make it appear that it has higher % of absenteeism than other counties.
 
 ## AI Assistance
-
-ChatGPT was used to support learning by explaining concepts, answering technical questions, providing feedback on code organization and time management, and helping troubleshoot errors.  All project decisions, testing, and validation were completed by the author.
+ChatGPT was used as a learning and troubleshooting resource throughout the project, including concept clarification, technical guidance, and feedback. All analysis, project decisions, testing, and validation were completed by the author.
 
 ## Citation:
 2023-2024 & 2024-2025:
