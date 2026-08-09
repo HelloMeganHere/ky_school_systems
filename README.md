@@ -60,7 +60,7 @@ Other:
 ### Demographics
 Demographics has 18 categories: All Students, male/female, ethnicity, and other classification categories
 
-![Demographic Groups](docs/student_demographic.png)
+![Demographic Groups](docs/images/student_demographic.png)
 
 #### Observations
 - Sex categories total 100%
