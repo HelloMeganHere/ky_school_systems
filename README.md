@@ -17,41 +17,41 @@
 ### Clone the repository
 
 bash:
-
+'''
 git clone https://github.com/HelloMeganHere/ky_school_systems.git
 cd ky_school_systems
-
+'''
 
 ### Create and activate a virtual environment
 
 #### Windows PowerShell
 
 powershell:
-
+```
 python -m venv venv
 .\venv\Scripts\Activate.ps1
-
+```
 #### Windows Command Prompt
 
 cmd:
-
+```
 python -m venv venv
 venv\Scripts\activate.bat
-
+```
 #### Mac / Linux
 
 bash:
-
+```
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 ### Install required packages
 
 bash:
-
+```
 pip install -r requirements.txt
-
+```
 
 ## Project Goal
 Investigate Kentucky public school education data to explore the relationship between student enrollment, chronic absenteeism, and dropout rate.
