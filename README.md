@@ -206,3 +206,6 @@ Data Suppression:
 - https://www.education.ky.gov/school/csip/Documents/Suppressed%20Data%20Guidance.pdf
 - https://www.education.ky.gov/AA/distsupp/Documents/Understanding_Kentucky_Minimum_N_School_Accountability.pdf
 
+## About me
+Megan Allred - [LinkedIn](https://www.linkedin.com/in/msmegan/)
+
