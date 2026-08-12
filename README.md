@@ -17,10 +17,10 @@
 ### Clone the repository
 
 bash:
-'''
+```
 git clone https://github.com/HelloMeganHere/ky_school_systems.git
 cd ky_school_systems
-'''
+```
 
 ### Create and activate a virtual environment
 
