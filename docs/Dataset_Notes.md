@@ -128,7 +128,13 @@ It's important to keep my Markdown language area organized and clean. It can be 
 Just because counts may be higher for one group over another doesn't necessarily mean this is an accurate depiction of what the data is telling us. Some counties will have higher enrollment data than others. Jefferson County is a great example of this. It's a heavily populated county and this can make it appear that it has higher % of absenteeism than other counties.
 
 ## AI Assistance
-ChatGPT was used as a learning and troubleshooting resource throughout the project, including concept clarification, technical guidance, and feedback. All analysis, project decisions, testing, and validation were completed by the author.
+ChatGPT was used throughout this project as a learning and troubleshooting resource, as well as to help with time management. I used it to better understand concepts, work through technical issues, and get feedback when I was stuck. Any AI-assisted work was reviewed and tested before being used in the project. The final decisions, analysis, and interpretation of the results are my own.
+
+#### For 03_ky_school_2023_2025_db_ai_notes.ipynb:
+I used ChatGPT for block 19. Two schools show up twice for two school years under two counties, and I had to deep dive why. I eventually re-pulled the datasets and googled both counties and the schools. These schools and counties are no where near the each other, and do not reside in the counties that are listed above. These are the only two descrepencies I found in the datasets.
+
+#### For final_ky_school_system_2023_2025.ipynb:
+I used ChatGPT for assistance with Block 37 to calculate the correlation between chronic absenteeism and dropout rate by school year. ChatGPT helped me understand the grouping and correlation logic used in the calculation. I reviewed the code and used the results to compare the relationship between chronic absenteeism and dropout rates across the two school years.
 
 ## Citation:
 2023-2024 & 2024-2025:

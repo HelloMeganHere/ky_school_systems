@@ -12,7 +12,7 @@ def csv_append(file_paths):
     for file in file_paths]
     return pd.concat(appended_dataframes, ignore_index=True)
 
-#### Functions
+
 def asterisk_conversion(df, column_name):
     asterisk_convert_df = df.copy()
     asterisk_convert_df[column_name] = asterisk_convert_df[column_name].replace('*', pd.NA)
