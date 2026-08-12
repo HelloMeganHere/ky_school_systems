@@ -5,11 +5,11 @@
 **Functions:** [Review/ky_school_functions.py](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/ky_school_functions.py)
 
 **ETL:** 
-[Review/01_ky_school_2023_2025_discovery.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/01_ky_school_2023_2025_discovery.ipynb)
-[Review/02_ky_school_2023_2025_etl.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/02_ky_school_2023_2025_etl.ipynb)
-[Review/03_ky_school_2023_2025_db.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/03_ky_school_2023_2025_db.ipynb)
-[Review/03_ky_school_2023_2025_db_ai_notes.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/03_ky_school_2023_2025_db_ai_notes.ipynb)
-[Review/04_ky_school_2023_2025_visuals.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/04_ky_school_2023_2025_visuals.ipynb)
+* [Review/01_ky_school_2023_2025_discovery.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/01_ky_school_2023_2025_discovery.ipynb)
+* [Review/02_ky_school_2023_2025_etl.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/02_ky_school_2023_2025_etl.ipynb)
+* [Review/03_ky_school_2023_2025_db.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/03_ky_school_2023_2025_db.ipynb)
+* [Review/03_ky_school_2023_2025_db_ai_notes.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/03_ky_school_2023_2025_db_ai_notes.ipynb)
+* [Review/04_ky_school_2023_2025_visuals.ipynb](https://github.com/HelloMeganHere/ky_school_systems/blob/main/Review/04_ky_school_2023_2025_visuals.ipynb)
 
 
 ## Setup Instructions
@@ -31,6 +31,12 @@ powershell:
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 
+#### Windows Command Prompt
+
+cmd:
+
+python -m venv venv
+venv\Scripts\activate.bat
 
 #### Mac / Linux
 
